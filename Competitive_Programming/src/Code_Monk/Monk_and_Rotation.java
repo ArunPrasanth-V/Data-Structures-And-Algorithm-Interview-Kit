@@ -32,11 +32,8 @@ public class Monk_and_Rotation {
 			arr[0]=temp;
 		}
 		
-		for(int loop = 0 ;loop <arr[len]; loop++) {
-			
-			System.out.print(arr[loop]+" ");
-			
-		}
+		for(int loop : arr) 
+			System.out.print(loop+" ");
 		
 	}
 	
